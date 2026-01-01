@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZÁSOBNÍK BONUS", "ZÁSOBNÍK BONUS\ZÁSOBNÍK BONUS.csproj", "{B201DE36-9F5F-44D9-9090-494B5C3A6E0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B201DE36-9F5F-44D9-9090-494B5C3A6E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B201DE36-9F5F-44D9-9090-494B5C3A6E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B201DE36-9F5F-44D9-9090-494B5C3A6E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B201DE36-9F5F-44D9-9090-494B5C3A6E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2427D34C-9FF1-465C-91D2-0F8627CAD8BF}
+	EndGlobalSection
+EndGlobal
