@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rezervační systém do kina", "Rezervační systém do kina\Rezervační systém do kina.csproj", "{085E72DC-2C24-40DA-8C7C-1134A8090097}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085E72DC-2C24-40DA-8C7C-1134A8090097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085E72DC-2C24-40DA-8C7C-1134A8090097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085E72DC-2C24-40DA-8C7C-1134A8090097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085E72DC-2C24-40DA-8C7C-1134A8090097}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEF80964-FEFA-49F6-9D76-4D7DE566F381}
+	EndGlobalSection
+EndGlobal
