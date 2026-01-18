@@ -95,6 +95,51 @@ namespace funnyass1
                 }
 
 
+
+                // ODSUD ZACINA NOVY CONTENT
+
+
+
+                else if (cod == "e")
+                {
+                    Console.WriteLine("zadej cislo");
+                    int cislo = Convert.ToInt32(Console.ReadLine());
+
+                    int delitel = 0;
+                    for (int i = 1; i <= cislo; i++)
+                    {
+                        if (cislo % i == 0)
+                        {
+                            delitel++;
+                        }
+                    }
+
+                    if (delitel == 2)
+                        Console.WriteLine("Cislo je prvocislo");
+                    else
+                        Console.WriteLine("Cislo neni prvocislo");
+
+                    cod = "";
+                }
+                else if (cod == "f")
+                {
+                    Console.WriteLine("zadej cislo");
+                    int cislo = Convert.ToInt32(Console.ReadLine());
+
+                    Console.Write("Rozklad: ");
+                    for (int i = 2; i <= cislo; i++)
+                    {
+                        while (cislo % i == 0)
+                        {
+                            Console.Write(i);
+                            cislo = cislo / i;
+                            if (cislo > 1)
+                                Console.Write(" * ");
+                        }
+                    }
+                    Console.WriteLine();
+                    cod = "";
+                }
             }
         }
     }
