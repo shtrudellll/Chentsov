@@ -35,7 +35,8 @@
 
 
             }
-            // => to, co jste pravděpodobně stvořili se nazývá Counting Sort cool =)
+            // => to, co jste pravděpodobně stvořili se nazývá Counting Sort
+            // cool =)
 
 
 
