@@ -7,7 +7,7 @@ namespace BogoSort
     {
         static void Main(string[] args)
         {
-            List<int> numbers = new List<int> { 6, 3,3,2,1,51326,136,235,124,235134,6856598,123564,2134625,32465};
+            List<int> numbers = new List<int> {6,3,3,123564,2134625,32465};
             numbers = BS(numbers);
             Console.WriteLine("and the list is....");
             for (int i = 0; i < numbers.Count; i++)
@@ -25,12 +25,10 @@ namespace BogoSort
                     i = 0;
                     a++;
                     Console.WriteLine(a);
-                    numbers = numbers.Shuffle().ToList();
+                    numbers = numbers.Shuffle().ToList();                           //tady je ten shuffle
                 }
             }
             return numbers;
-
-
         }
     }
 }
